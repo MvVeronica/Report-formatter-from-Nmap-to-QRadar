@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<scanReport>
+<identifyingScanner>
+<scannerIp value="xxx.xxx.xxx.xxx" type="IPv4"/>
+<scannerName>Nmap</scannerName>
+<scannerVendor>NoScanVendor</scannerVendor>
+<scannerVersion>NoScanVersion</scannerVersion>
+<scannerPatch>NoScanPatch</scannerPatch>
+<scannerUser>NoUser</scannerUser>
+</identifyingScanner>
+<host>
+<ip value="ip" type="IPv4" />
+<macAddress>mac</macAddress>
+<hostName>host</hostName>
+<port value = "port">
+<vulnerability type="CVE ID" id="id" risk="3"/>
+</port>
+</host>
+</scanReport>

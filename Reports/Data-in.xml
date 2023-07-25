@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scanReport>
+<identifyingScanner>
+<scannerIp value="xxx.xxx.xxx.xxx" type="IPv4" />
+<scannerName>Nmap</scannerName>
+<scannerVendor>NoScanVendor</scannerVendor>
+<scannerVersion>NoScanVersion</scannerVersion>
+<scannerPatch>NoScanPatch</scannerPatch>
+<scannerUser>NoUser</scannerUser>
+</identifyingScanner>
+<host>
+<ip value="zzz.zzz.zzz.zzz" type="IPv4" />
+<macAddress>0000000000:AA</macAddress>
+<hostName>hostname_1</hostName>
+<port value="num3">
+<vulnerability type="CVE ID" id="2002-66666" risk="3" />
+<vulnerability type="CVE ID" id="2002-66667" risk="3" /><vulnerability type="CVE ID" id="2002-66668" risk="3" /><vulnerability type="CVE ID" id="2002-66669" risk="3" /></port>
+<hostName>hostname_2</hostName><port value="num4"><vulnerability type="CVE ID" id="2003-33333" risk="3" /><vulnerability type="CVE ID" id="2003-3334" risk="3" /><vulnerability type="CVE ID" id="2003-33334" risk="3" /></port></host>
+<host>
+<ip value="qqq.qqq.qqq.qqq" type="IPv4" />
+<macAddress>11:11:11:11:11:BB</macAddress>
+<hostName />
+<port value="num5">
+<vulnerability type="CVE ID" id="2001-11111" risk="3" />
+<vulnerability type="CVE ID" id="2001-22222" risk="3" /></port>
+</host>
+</scanReport>

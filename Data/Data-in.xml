@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///R:/.xsl" type="text/xsl"?>
+<!-- Nmap scan initiated Apr as: &quot;R:\\ .xml&quot; -->
+
+<nmaprun scanner="nmap" args="R:\\" version="" xmloutputversion="">
+	<scaninfo type="" protocol="" numservices="" services=""/>
+	<verbose level="0"/>
+	<debugging level="0"/>
+
+	<hosthint>
+		<status state="up" reason="" reason_ttl="0"/>
+		<address addr="yyy.yyy.yyy.yyy" addrtype="ipv4"/>
+		<hostnames></hostnames>
+	</hosthint>
+
+	<host starttime="UNIX_TIMESTAMP" endtime="UNIX_TIMESTAMP"><status state="up" reason="" reason_ttl=""/>
+		<address addr="zzz.zzz.zzz.zzz" addrtype="ipv4"/>
+		<address addr="00:00:00:00:00:AA" addrtype="mac" vendor=""/>
+
+		<hostnames>
+			<hostname name="hostname_1" type="PTR"/>
+			<hostname name="hostname_2" type="PTR"/>
+		</hostnames>
+
+		<ports>
+		<extraports state="filtered" count="ports_count">
+			<extrareasons reason="" count="ports_count" proto="" ports="num1, num2, ..."/>
+		</extraports>
+
+		<port protocol="" portid="num1"><state state="open" reason="" reason_ttl=""/>
+			<service name="" product="" version="" devicetype="" method="" conf="">
+				<cpe></cpe>
+			</service>
+			<script id="" output=""/>
+			<script id="vulners" output="">
+				<table>
+					<table key="CVE-200-000">
+						<elem key="title">attack</elem>
+						<elem key="state">LIKELY VULNERABLE</elem>
+					</table>
+
+					<table key="ids">
+						<elem>CVE:CVE-200-000</elem>
+					</table>
+
+					<table key="description">
+						<elem>keep many connections </elem>
+					</table>
+
+					<table key="dates">
+						<table key="disclosure">
+							<elem key="year">200</elem>
+							<elem key="day">00</elem>
+							<elem key="month">01</elem>
+						</table>
+					</table>
+
+					<elem key="disclosure">200-01-00</elem>
+					<table key="exploit_results"></table>
+					<table key="refs">
+						<elem>https:</elem>
+						<elem>http:</elem>
+					</table>
+				</table>
+			</script>
+		</port>
+
+		<port protocol="" portid="num2"><state state="closed" reason="" reason_ttl=""/><service name="" method="" conf=""/></port>
+
+		<port protocol="" portid="num3"><state state="open" reason="" reason_ttl=""/>
+			<service name="" product="" version="" extrainfo="" tunnel="" method="" conf="">
+				<cpe>cpe:</cpe>
+			</service>
+			<script id="" output=""/>
+			<script id="" output=""/>
+			<script id="vulners" output="">
+				<table key="cpe:">
+					<table>
+						<elem key="is_exploit">true</elem>
+						<elem key="id">PACKETSTORM</elem>
+						<elem key="cvss">00</elem>
+						<elem key="type">packetstorm</elem>
+					</table>
+
+					<table>
+						<elem key="is_exploit">true</elem>
+						<elem key="id">EDB-ID:11111</elem>
+						<elem key="cvss">00</elem>
+						<elem key="type">exploitdb</elem>
+					</table>
+
+					<table>
+						<elem key="is_exploit">false</elem>
+						<elem key="id">CVE-2002-66666</elem>
+						<elem key="cvss">00</elem>
+						<elem key="type">cve</elem>
+					</table>
+
+					<table>
+						<elem key="is_exploit">false</elem>
+						<elem key="id">CVE-2002-66667</elem>
+						<elem key="cvss">00</elem>
+						<elem key="type">cve</elem>
+					</table>
+
+					<table>
+						<elem key="is_exploit">false</elem>
+						<elem key="id">CVE-2002-66668</elem>
+						<elem key="cvss">00</elem>
+						<elem key="type">cve</elem>
+					</table>
+
+					<table>
+						<elem key="is_exploit">false</elem>
+						<elem key="id">CVE-2002-66669</elem>
+						<elem key="cvss">00</elem>
+						<elem key="type">cve</elem>
+					</table>
+
+					<table>
+						<elem key="is_exploit">false</elem>
+						<elem key="id">CNVD-2003-77777</elem>
+						<elem key="cvss">00</elem>
+						<elem key="type">cnvd</elem>
+					</table>
+
+					<table>
+						<elem key="is_exploit">true</elem>
+						<elem key="id">100DAY-ID-0000</elem>
+						<elem key="cvss">00</elem>
+						<elem key="type">zdt</elem>
+					</table>
+				</table>
+			</script>
+
+		</port>
+
+		<port protocol="" portid="num4"><state state="open" reason="" reason_ttl=""/>
+			<service name="" product="" version="" extrainfo="" tunnel="" method="" conf="">
+				<cpe>cpe:</cpe>
+			</service>
+			<script id="vulners" output="">
+			<table key="cpe">
+				<table>
+					<elem key="is_exploit">true</elem>
+					<elem key="id">PACKETSTORM:11111</elem>
+					<elem key="cvss">00</elem>
+					<elem key="type">packetstorm</elem>
+				</table>
+
+				<table>
+					<elem key="is_exploit">true</elem>
+					<elem key="id">EDB-ID:22222</elem>
+					<elem key="cvss">00</elem>
+					<elem key="type">exploit</elem>
+				</table>
+
+				<table>
+					<elem key="is_exploit">false</elem>
+					<elem key="id">CVE-2003-33333</elem>
+					<elem key="cvss">00</elem>
+					<elem key="type">cve</elem>
+				</table>
+
+				<table>
+					<elem key="is_exploit">false</elem>
+					<elem key="id">CVE-2003-3334</elem>
+					<elem key="cvss">00</elem>
+					<elem key="type">cve</elem>
+				</table>
+
+				<table>
+					<elem key="is_exploit">false</elem>
+					<elem key="id">CVE-2003-33334</elem>
+					<elem key="cvss">00</elem>
+					<elem key="type">cve</elem>
+				</table>
+
+				<table>
+					<elem key="is_exploit">false</elem>
+					<elem key="id">CNVD-200-0001</elem>
+					<elem key="cvss">00</elem>
+					<elem key="type">cnvd</elem>
+				</table>
+
+				<table>
+					<elem key="is_exploit">false</elem>
+					<elem key="id">CVE-200-77779</elem>
+					<elem key="cvss">00</elem>
+					<elem key="type">cnvd</elem>
+				</table>
+
+				<table>
+					<elem key="is_exploit">false</elem>
+					<elem key="id">CVE-200-7700</elem>
+					<elem key="cvss">00</elem>
+					<elem key="type">cve</elem>
+				</table>
+
+				<table>
+					<elem key="is_exploit">false</elem>
+					<elem key="id">CVE-200-77777</elem>
+					<elem key="cvss">00</elem>
+					<elem key="type">cve</elem>
+				</table>
+			</table>
+			</script>
+		</port>
+		</ports>
+		<times srtt="" rttvar="" to=""/>
+	</host>
+
+	<host starttime="UNIX_TIMESTAMP" endtime="UNIX_TIMESTAMP"><status state="up" reason="" reason_ttl="0"/>
+		<address addr="qqq.qqq.qqq.qqq" addrtype="ipv4"/>
+		<address addr="11:11:11:11:11:BB" addrtype="mac" vendor=""/>
+		<hostnames></hostnames>
+
+		<ports>
+			<extraports state="filtered" count="ports_count">
+				<extrareasons reason="" count="ports_count" proto="" ports="num5, num1, ..."/>
+			</extraports>
+
+			<port protocol="" portid="num5"><state state="open" reason="" reason_ttl=""/>
+				<service name="" product="" version="" devicetype="" method="" conf="">
+					<cpe></cpe>
+				</service>
+				<script id="" output=""/>
+				<script id="vulners" output="">
+				<table>
+					<table>
+						<elem key="cvss"></elem>
+						<elem key="is_exploit">true</elem>
+						<elem key="type">packetstorm</elem>
+						<elem key="id">PACKETSTORM:1000</elem>
+					</table>
+
+					<table>
+						<elem key="cvss">00</elem>
+						<elem key="is_exploit">false</elem>
+						<elem key="type">cve</elem>
+						<elem key="id">CVE-2001-11111</elem>
+					</table>
+
+					<table>
+						<elem key="cvss">00</elem>
+						<elem key="is_exploit">true</elem>
+						<elem key="type">s</elem>
+						<elem key="id">SSV:11111</elem>
+					</table>
+
+					<table>
+						<elem key="cvss">00</elem>
+						<elem key="is_exploit">true</elem>
+						<elem key="type">packetstorm</elem>
+						<elem key="id">PACKETSTORM:100000</elem>
+					</table>
+
+					<table>
+						<elem key="cvss">00</elem>
+						<elem key="is_exploit">true</elem>
+						<elem key="type">exploitdb</elem>
+						<elem key="id">EDB-ID:22222</elem>
+					</table>
+
+					<table>
+						<elem key="cvss">00</elem>
+						<elem key="is_exploit">false</elem>
+						<elem key="type">cve</elem>
+						<elem key="id">CVE-2001-22222</elem>
+					</table>
+
+					<table>
+						<elem key="cvss">00</elem>
+						<elem key="is_exploit">true</elem>
+						<elem key="type">can</elem>
+						<elem key="id">SSH_ENUM</elem>
+					</table>
+
+					<table>
+						<elem key="cvss">00</elem>
+						<elem key="is_exploit">true</elem>
+						<elem key="type">exploitpack</elem>
+						<elem key="id">EXPLOITPACK:</elem>
+					</table>
+				</table>
+				</script>
+			</port>
+
+			<port protocol="" portid="num1"><state state="open" reason="" reason_ttl=""/><service name="" method="" conf=""/></port>
+		</ports>
+		<times srtt="" rttvar="" to=""/>
+	</host>
+
+	<runstats>
+		<finished time="UNIX_TIMESTAMP" timestr="Apr" summary="Nmap done" elapsed="" exit="success"/>
+		<hosts up="0" down="0" total="0"/>
+	</runstats>
+
+</nmaprun>
