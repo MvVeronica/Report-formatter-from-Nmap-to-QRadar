@@ -1,8 +1,8 @@
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](www.linkedin.com/in/veronica-makalovich-b0aa76271)
-[![GITHUB](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]
-[![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)]
-[![Nmap Badge](https://img.shields.io/badge/Nmap-090580?style=for-the-badge&logoColor=blue)]
-[![Qradar](https://img.shields.io/badge/IBM_QRAdar-164B60?style=for-the-badge&logoColor=blue)]
+![GITHUB](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![Nmap Badge](https://img.shields.io/badge/Nmap-090580?style=for-the-badge&logoColor=blue)
+![Qradar](https://img.shields.io/badge/IBM_QRAdar-164B60?style=for-the-badge&logoColor=blue)
 
 # Report-formatter-from-Nmap-to-QRadar
 
