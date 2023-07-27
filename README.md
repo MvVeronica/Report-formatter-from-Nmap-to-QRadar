@@ -27,13 +27,13 @@ The project consists of 3 directories and a script.
 - **Data** : This directory is used to store Nmap reports in .xml format. It serves as the input data folder for the project.  
 - **Project_templates** : This directory contains project templates (currently only one). The structure of the .xml report file for QRadar is based on this template.
 
-  *Template.xml structure was discovered with testing instruments, any changes to this structure require additional import tests into QRadar.*  
+  > Template.xml structure was discovered with testing instruments, any changes to this structure require additional import tests into QRadar.  
 
 - **Reports** : This directory is where the script places the ready-to-import reports for QRadar. The reports are not deleted over time (administrator request) and are simply stored there.
 
 
 ## Project Logic
-The Python script uses Nmap scan reports in .xml format as input data. The main working library for working with .xml  [xml.etree.ElementTree]![](https://docs.python.org/3/library/xml.etree.elementtree.html)  
+The Python script uses Nmap scan reports in .xml format as input data. The main working library for working with .xml  [xml.etree.ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html)  
 
 The working tag(simplified version), from which code gets data(Nmap report), is presented below.
 
