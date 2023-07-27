@@ -10,7 +10,7 @@
 </identifyingScanner>
 <host>
 <ip value="zzz.zzz.zzz.zzz" type="IPv4" />
-<macAddress>0000000000:AA</macAddress>
+<macAddress>00:00:00:00:00:AA</macAddress>
 <hostName>hostname_1</hostName>
 <port value="num3">
 <vulnerability type="CVE ID" id="2002-66666" risk="3" />
