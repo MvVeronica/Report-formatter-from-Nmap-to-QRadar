@@ -144,7 +144,7 @@ The Python script reads all existing files in the Data and Reports directories a
 </center> 
 
 ## Usage
-Перед использованием кода:
+Before code usage:
 - Git clone
 
 Using test data:
