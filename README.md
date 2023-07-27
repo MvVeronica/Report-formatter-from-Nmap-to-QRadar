@@ -140,7 +140,7 @@ The project is based on clear file separation, which allows the security adminis
 The Python script reads all existing files in the Data and Reports directories and compares their names. If a file with a similar name already exists, the code execution is terminated. If not, the code generates a report.
 
 <center>
-    <img src="3_file_check_schema.png" alt="File_check_schema" />
+    <img src="3_File_check_schema.png" alt="File_check_schema" />
 </center> 
 
 ## Usage
