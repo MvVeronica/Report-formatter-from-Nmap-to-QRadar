@@ -1,8 +1,8 @@
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](www.linkedin.com/in/veronica-makalovich-b0aa76271)
 ![GITHUB](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![Nmap Badge](https://img.shields.io/badge/Nmap-090580?style=for-the-badge&logoColor=blue)
-![Qradar](https://img.shields.io/badge/IBM_QRAdar-164B60?style=for-the-badge&logoColor=blue)
+![Qradar](https://img.shields.io/badge/IBM_QRAdar-164B60?style=for-the-badge&logoColor=blue)  
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](www.linkedin.com/in/veronica-makalovich-b0aa76271)
 
 # Report-formatter-from-Nmap-to-QRadar
 
@@ -27,7 +27,7 @@ The project consists of 3 directories and a script.
 - **Data** : This directory is used to store Nmap reports in .xml format. It serves as the input data folder for the project.  
 - **Project_templates** : This directory contains project templates (currently only one). The structure of the .xml report file for QRadar is based on this template.
 
-        Template.xml structure was discovered with testing instruments, any changes to this structure require additional import tests into QRadar.  
+  *Template.xml structure was discovered with testing instruments, any changes to this structure require additional import tests into QRadar.*  
 
 - **Reports** : This directory is where the script places the ready-to-import reports for QRadar. The reports are not deleted over time (administrator request) and are simply stored there.
 
@@ -78,7 +78,7 @@ The working tag(simplified version), from which code gets data(Nmap report), is 
 
 ```
 
-    It is important to note that the report structure presented in the Data directory is just an example and may vary slightly depending on the data: it may or may not have hostnames, it may have any number of ports and CVEs.
+It is important to note that the report structure presented in the Data directory is just an example and may vary slightly depending on the data: it may or may not have hostnames, it may have any number of ports and CVEs.
 
 ***Attention! Vulnerabilities may also include other groups. However, at the request of the administrator, only CVE group has been highlighted***
 
