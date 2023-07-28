@@ -24,12 +24,12 @@ It was decided to develop a Python script and run it using Task Scheduler.
 ## Project Structure
 The project consists of 3 directories and a script. 
 
-- **Data** : This directory is used to store Nmap reports in .xml format. It serves as the input data folder for the project.  
-- **Project_templates** : This directory contains project templates (currently only one). The structure of the .xml report file for QRadar is based on this template.
+- **[Data](https://github.com/MvVeronica/Report-formatter-from-Nmap-to-QRadar/tree/main/Data)** : This directory is used to store Nmap reports in .xml format. It serves as the input data folder for the project.  
+- **[Project_templates](https://github.com/MvVeronica/Report-formatter-from-Nmap-to-QRadar/tree/main/Project_templates)** : This directory contains project templates (currently only one). The structure of the .xml report file for QRadar is based on this template.
 
-  > Template.xml structure was discovered with testing instruments, any changes to this structure require additional import tests into QRadar.  
+  > [Template.xml](https://github.com/MvVeronica/Report-formatter-from-Nmap-to-QRadar/blob/main/Project_templates/Template.xml) structure was discovered with testing instruments, any changes to this structure require additional import tests into QRadar.  
 
-- **Reports** : This directory is where the script places the ready-to-import reports for QRadar. The reports are not deleted over time (administrator request) and are simply stored there.
+- **[Reports](https://github.com/MvVeronica/Report-formatter-from-Nmap-to-QRadar/tree/main/Reports)** : This directory is where the script places the ready-to-import reports for QRadar. The reports are not deleted over time (administrator request) and are simply stored there.
 
 
 ## Project Logic
