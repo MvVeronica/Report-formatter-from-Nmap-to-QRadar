@@ -148,14 +148,14 @@ Before code usage:
 - Git clone
 
 Using test data:
-- Delete the Data-in.xml file from the Reports directory.
+- Delete the [Data-in.xml](https://github.com/MvVeronica/Report-formatter-from-Nmap-to-QRadar/blob/main/Data/Data-in.xml) file from the [Reports](https://github.com/MvVeronica/Report-formatter-from-Nmap-to-QRadar/tree/main/Reports) directory.
 - Run the script in Visual Studio Code.
-- Check the Reports directory. 😉
+- Check the [Reports](https://github.com/MvVeronica/Report-formatter-from-Nmap-to-QRadar/tree/main/Reports) directory. 😉
 
 Using product data:
-- Add the Nmap report in .xml format to the Data directory.
+- Add the Nmap report in .xml format to the [Data](https://github.com/MvVeronica/Report-formatter-from-Nmap-to-QRadar/tree/main/Data) directory.
 - Run the script in Visual Studio Code.
-- Check the reports directory, your report will appear there. 😉
+- Check the [Reports](https://github.com/MvVeronica/Report-formatter-from-Nmap-to-QRadar/tree/main/Reports) directory, your report will appear there. 😉
 
 ## License  
 MIT: https://rem.mit-license.org
