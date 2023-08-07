@@ -140,7 +140,7 @@ def replace_information_in_template(final_cve_list: list, report_file: Path) -> 
         for _ in final_cve_list:
             current_list = final_cve_list[index]
             
-            for ip_tag, mac_tag, item in product(host_tag.iter('ip'), host_tag.iter('macAddress'), current_list):
+            for ip_tag, item in product(host_tag.iter('ip'), current_list):
                 if "ipv4" in item:
                     ip_tag.set("value", item["ipv4"])
             
